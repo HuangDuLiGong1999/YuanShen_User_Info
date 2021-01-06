@@ -44,7 +44,8 @@ def GetInfo(Uid, ServerID):
                 'Referer': 'https://webstatic.mihoyo.com/app/community-game-records/index.html?v=6',
                 'Accept-Encoding': 'gzip, deflate',
                 'Accept-Language': 'zh-CN,en-US;q=0.8',
-                'X-Requested-With': 'com.mihoyo.hyperion'
+                'X-Requested-With': 'com.mihoyo.hyperion',
+                'cookie': ''
             }
         )
         return (req.text)
